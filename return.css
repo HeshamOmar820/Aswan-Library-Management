@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin: 5px;
+    position: relative;
+}
+header h1{
+    display: inline;
+}
+section{
+    background: url("/magic\ background.png");
+    width: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-position-y: center;
+    background-position-x: left;
+    background-size: cover;
+    
+    color: #fff;
+    font-size: 35px;
+    margin: 0 auto;
+}
+
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 50px;
+
+}
+
+form input{
+    border: #000 solid 6px;
+    width: 300px;
+    height: 45px;
+    position: absolute;
+}
+
+form label{
+    position: absolute;
+    left: 0;
+    top: 300px;
+}
+label.one{
+    top: 150px;
+    left: 0;
+}
+input.one{
+    top: 150px;
+    right: 0;
+}
+label.two{
+    top: 250px;
+    left: 0;
+}
+input.two{
+    top: 250px;
+    right: 0;
+}
+label.three{
+    top: 300;
+    left: 0;
+}
+
+input[type="submit"]{
+    min-height: 80px;
+    min-width: 300px;
+    border: #000 7px solid;
+    background-color: rgb(7, 33, 32);
+    color: #fff;
+    font-size: 30px;
+    line-height: 45px;
+    margin: 150px auto;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    top: 280px;
+    left: 22%;
+
+}
+
+a{
+    position: absolute;
+    min-height: 80px;
+    min-width: 200px;
+    border: #000 7px solid;
+    background-color: rgb(7, 33, 32);
+    color: #fff;
+    font-size: 28px;
+    line-height: 65px;
+    margin: 150px auto;
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    top: 380px;
+    left: 30%;
+}
+
+a.two{
+    top: 0;
+    right: 0;
+}
+
+a.three{
+    top: 220px;
+}
+
+a.four{
+    top: 220px;
+    right: 0;
+}
+
+input{
+    font-size:25px;
+}
+.ffive{
+    color: yellow;
+    top: 340px;
+    left: 5%;
+    font-size: 22px;
+    
+}

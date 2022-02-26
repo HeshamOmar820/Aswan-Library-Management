@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin: 5px;
+    position: relative;
+}
+header h1{
+    display: inline;
+}
+section{
+    background: url("/magic\ background.png");
+    width: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-position-y: center;
+    background-position-x: left;
+    background-size: cover;
+    
+    color: #fff;
+    font-size: 35px;
+}
+
+form{
+    height: 600px;
+    width: 600px;
+    margin: 0px auto;
+    padding-top: 150px;
+    position: relative;
+    flex-grow: 100;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form label.one{
+    position: absolute;
+    left: 0;
+}
+form input.one{
+    position: absolute;
+    right: 0;
+    
+}
+
+form input{
+    border: #000 solid 6px;
+    width: 300px;
+    height: 45px;
+}
+form label.two{
+    position: absolute;
+    left: 0;
+    top: 300px;
+}
+form input.two{
+    position: absolute;
+    right: 0;
+    top: 300px;
+    
+}
+
+input[type="text"], input[type="password"]
+{
+    font-size:30px;
+}
+
+a{
+    position: absolute;
+    top: 390px;
+    left: 25%;
+    min-height: 80px;
+    min-width: 300px;
+    border: #000 7px solid;
+    background-color: rgb(7, 33, 32);
+    color: #fff;
+    font-size: 40px;
+    margin: 30px auto;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin: 5px;
+    position: relative;
+}
+header img{
+    margin-top: 5px;
+    display: inline;
+    position: absolute;
+}
+header h1{
+    display: inline;
+    margin-left: 60px;
+}
+section{
+    background: url("/magic\ background.png");
+    width: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-position-y: center;
+    background-position-x: left;
+    background-size: cover;
+    display: flex;
+    flex-grow: 100;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section a{
+    min-height: 100px;
+    min-width: 320px;
+    border: #000 7px solid;
+    background-color: rgb(7, 33, 32);
+    color: #fff;
+    font-size: 30px;
+    margin: 30px auto;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+section a img{
+    display: block;
+    margin: 10px auto;
+    width: 40px;
+}
